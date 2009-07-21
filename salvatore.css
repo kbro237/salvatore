@@ -1,0 +1,101 @@
+/* CSS for Salvatore Project */
+/* Developed by Keith Walbolt */
+
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin: 0px;
+}
+
+#header {
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-top: 0px;
+	background-color: transparent;
+}
+
+#title {
+	background-color: #feffd1;
+	margin-top: 0px;
+	margin-right: -8px;
+	margin-left: -8px;
+	border-bottom-style: solid;
+	height: 110px;
+	border-bottom-width: 2px;
+}
+
+#head_name {
+	font: bold 3em Georgia, "Times New Roman", Times, serif;
+	width: 600px;
+	text-shadow: #a7a7a7 1px 1px 2px;
+	letter-spacing: -4px;
+	text-transform: lowercase;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#head_location {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font: 1em "Trebuchet MS", Helvetica, Arial, Geneva, sans-serif;
+	text-shadow: #a7a7a7 1px 1px 2px;
+	text-align: right;
+}
+
+#focus {
+	text-align: center;
+	font-size: 1.25em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -28px;
+	width: 600px;
+	color: #feffd1;
+	background: url(focus600.png) no-repeat 50%;
+	height: 54px;
+	
+}
+
+#focus>p {
+	width: 400px;
+	margin: auto;
+	height: 54px;
+	padding-top: 5px;
+	
+}
+
+#focus>p>a:link{
+	color: #e1a5a6;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#focus>p>a:hover{
+	color: #f00;
+}
+
+#content {
+	background-color: #d4d4d4;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	min-height: 400px;
+}
+
+#footer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	background-color: #d4d4d4;
+}
+
+#foot_location {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600;
+	padding: 8px;
+	text-shadow: #feffd1 1px 1px 1px;
+}
+
