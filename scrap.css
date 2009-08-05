@@ -1,0 +1,68 @@
+#page {
+	background-color: #feffd1;
+	margin-left: 10%;
+	padding: 1em;
+	width: auto;
+	margin-right: 10%;
+	max-width: 700px;
+	display: none;
+}
+
+
+#breadcrumbs {
+	display: none;
+}
+
+.crumb {
+	
+}
+
+#front {
+	background: #feffd1 url(front_small.jpg) no-repeat 0;
+	opacity: 1;
+}
+
+#nav_statement
+ {
+	color: #fff;
+	padding: .25em;
+	direction: ltr;
+	text-align: left;
+	font-size: 1.5em;
+	!opacity: 0.85;
+	width: 9em;
+	line-height: 1em;
+	background: url(grad.png) repeat-y;
+}
+
+#nav_statement>a:link {
+	color: #ffd3a2;
+	text-decoration: none;
+	opacity: 1;
+}
+
+#nav_statement>a:hover {
+	color: #ea7338;
+}
+
+
+#nav {
+	display: none;
+}
+
+.navlink {
+	
+}
+
+#mission {
+	display: none;
+}
+
+#dashboard {
+	
+}
+
+#map {
+	display: none;
+	
+}
