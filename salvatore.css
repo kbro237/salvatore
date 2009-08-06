@@ -3,21 +3,25 @@
 
 body {
 	font-family: Georgia, "Times New Roman", Times, serif;
-	margin: 0px;
+	margin: auto;
+}
+
+#content, #footer, #foot_location {
+	width: 750px;
+}
+
+#head_name, #head_location {
+	width: 600px;
 }
 
 #header {
-	margin-left: 0px;
-	margin-right: 0px;
-	padding-top: 0px;
+	margin: auto;
 	background-color: transparent;
 }
 
 #title {
-	background-color: #feffd1;
+	background-color: #babed9;
 	margin-top: 0px;
-	margin-right: -8px;
-	margin-left: -8px;
 	border-bottom-style: solid;
 	height: 110px;
 	border-bottom-width: 2px;
@@ -25,16 +29,15 @@ body {
 
 #head_name {
 	font: bold 3em "Trebuchet MS", Helvetica, Arial, Geneva, sans-serif;
-	width: 600px;
 	text-shadow: #a7a7a7 1px 1px 2px;
 	letter-spacing: -4px;
 	text-transform: uppercase;
 	margin-left: auto;
 	margin-right: auto;
+	width: 600px;
 }
 
 #head_location {
-	width: 600px;
 	margin-left: auto;
 	margin-right: auto;
 	text-transform: uppercase;
@@ -51,9 +54,11 @@ body {
 	margin-top: -28px;
 	width: 600px;
 	color: #feffd1;
-	background: url(focus600.png) no-repeat 50%;
+	background: url(focus.png) no-repeat 50%;
 	height: 54px;
 	font: 1.25em "Trebuchet MS", Helvetica, Arial, Geneva, sans-serif;
+	z-index: 1;
+	position: relative;
 }
 
 #focus>p {
@@ -85,14 +90,13 @@ body {
 	background-color: #d4d4d4;
 	margin-left: auto;
 	margin-right: auto;
-	width: 600px;
+	margin-top: -26px;
 	min-height: 400px;
 }
 
 #footer {
 	margin-left: auto;
 	margin-right: auto;
-	width: 600px;
 	background-color: #d4d4d4;
 	font-family: "Trebuchet MS", Helvetica, Arial, Geneva, sans-serif;
 }
@@ -101,7 +105,6 @@ body {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	width: 600;
 	padding: 8px;
 	text-shadow: #feffd1 1px 1px 1px;
 }
