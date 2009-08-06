@@ -70,6 +70,13 @@ body {
 	text-transform: uppercase;
 }
 
+#focus>p>a:visited{
+	color: #e1a5a6;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+
 #focus>p>a:hover{
 	color: #f00;
 }
