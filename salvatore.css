@@ -6,6 +6,14 @@ body {
 	margin: auto;
 }
 
+h1 {
+	font-family: "Trebuchet MS", Helvetica, Arial, Geneva, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: -4px;
+	text-shadow: #a7a7a7 1px 1px 2px;
+	color: #749B6F;
+}
+
 #content, #footer, #foot_location {
 	width: 750px;
 }
@@ -20,11 +28,12 @@ body {
 }
 
 #title {
-	background-color: #babed9;
+	background-color: #efffff;
 	margin-top: 0px;
 	border-bottom-style: solid;
 	height: 110px;
 	border-bottom-width: 2px;
+	background-image: url(paisly.png);
 }
 
 #head_name {
@@ -52,8 +61,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: -28px;
-	width: 600px;
-	color: #feffd1;
+	width: 750px;
 	background: url(focus.png) no-repeat 50%;
 	height: 54px;
 	font: 1.25em "Trebuchet MS", Helvetica, Arial, Geneva, sans-serif;
@@ -63,35 +71,43 @@ body {
 
 #focus>p {
 	width: 400px;
+	color: #e2ebe0;
 	margin: auto;
 	height: 54px;
-	padding-top: 5px;
-	
+	padding-top: 3px;
 }
 
-#focus>p>a:link{
-	color: #e1a5a6;
+#focus>p>a:link, #focus>p>a:visited{
+	color: #749B6F;
 	text-decoration: none;
 	text-transform: uppercase;
-}
-
-#focus>p>a:visited{
-	color: #e1a5a6;
-	text-decoration: none;
-	text-transform: uppercase;
+	border-bottom-style: dashed;
+	border-bottom-width: 1px;
 }
 
 
 #focus>p>a:hover{
 	color: #f00;
-}
+	}
 
 #content {
-	background-color: #d4d4d4;
+	background-color: #dedede;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: -26px;
 	min-height: 400px;
+}
+
+#welcome, #whats_new {
+	padding: 25px;
+}
+
+#welcome {
+	
+}
+
+whats_new {
+	
 }
 
 #footer {
