@@ -10,7 +10,7 @@ h1 {
 	font-family: "Trebuchet MS", Helvetica, Arial, Geneva, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: -4px;
-	text-shadow: #749b6f 1px 1px 3px;
+	text-shadow: #6f749b 1px 1px 3px;
 }
 
 
@@ -26,6 +26,15 @@ h1 {
 	margin: auto;
 	background-color: transparent;
 }
+
+a:link.no_blue, a:visited.no_blue {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover.no_blue {
+	text-shadow: #787878 2px 2px 4px;
+} 
 
 #title {
 	background-color: #efffff;
@@ -97,12 +106,16 @@ h1 {
 
 #welcome, #whats_new {
 	width: 355px;
-	padding: 10px;
+	padding: 20px 10px;
 }
 
 #welcome>p, #whats_new>p {
 	padding: 10px;
 	text-align: justify;
+}
+
+#welcome>h1, #whats_new>h1 {
+	text-align: center;
 }
 
 #welcome {
@@ -116,7 +129,7 @@ h1 {
 #footer {
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #d4d4d4;
+	background-color: #;
 	font-family: "Trebuchet MS", Helvetica, Arial, Geneva, sans-serif;
 }
 
