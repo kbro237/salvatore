@@ -11,8 +11,12 @@ h1 {
 	text-transform: uppercase;
 	letter-spacing: -4px;
 	text-shadow: #6f749b 1px 1px 3px;
+	text-align: center;
 }
 
+.center {
+	text-align: center;
+}
 
 #content, #footer, #foot_location {
 	width: 750px;
@@ -37,12 +41,11 @@ a:hover.no_blue {
 } 
 
 #title {
-	background-color: #efffff;
 	margin-top: 0px;
 	border-bottom-style: solid;
 	height: 110px;
 	border-bottom-width: 2px;
-	background-image: url(paisly.png);
+	#background-image: url(paisly.png);
 }
 
 #head_name {
@@ -100,8 +103,7 @@ a:hover.no_blue {
 	}
 
 #content {
-	background-color: #dedede;
-	margin: -26px auto auto ;
+	margin: auto;
 }
 
 #welcome, #whats_new {
