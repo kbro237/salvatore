@@ -106,26 +106,30 @@ a:hover.no_blue {
 	margin: auto;
 }
 
-#welcome, #whats_new {
+#left_column, #right_column {
 	width: 355px;
 	padding: 20px 10px;
 }
 
-#welcome>p, #whats_new>p {
+#left_column>p, #right_column>p, #one_column>p {
 	padding: 10px;
 	text-align: justify;
 }
 
-#welcome>h1, #whats_new>h1 {
+#left_column>h1, #right_column>h1, #one_column>h1 {
 	text-align: center;
 }
 
-#welcome {
+#left_column {
 	float: left;
 }
 
-#whats_new {
+#right_column {
 	float: right;
+}
+
+#one_column {
+	width: auto;
 }
 
 #footer {
