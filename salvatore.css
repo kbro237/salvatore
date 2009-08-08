@@ -89,7 +89,7 @@ a:hover.no_blue {
 	padding-top: 3px;
 }
 
-#focus>p>a:link, #focus>p>a:visited{
+#focus>p>a:link, #focus>p>a:visited {
 	color: #749B6F;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -98,7 +98,7 @@ a:hover.no_blue {
 }
 
 
-#focus>p>a:hover{
+#focus>p>a:hover {
 	color: #956F9B;
 	}
 
