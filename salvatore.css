@@ -13,6 +13,7 @@ h1 {
 	letter-spacing: -4px;
 	text-shadow: #749b6f 1px 1px 2px;
 	text-align: center;
+	margin: .1em .1em .1em .1em;
 }
 
 h2 {
@@ -21,6 +22,7 @@ h2 {
 	color: #6f749b;
 	text-align: left;
 	word-spacing: -1px;
+	margin: 1em 0 .2em 0;
 }
 
 .center {
@@ -69,7 +71,7 @@ a:hover.no_blue {
 
 #head_location {
 	margin: auto;
-	padding: 5px;
+	padding: 0px 5px 10px 5px;
 	text-transform: uppercase;
 	letter-spacing: .1em;
 	font: 1em "Trebuchet MS", Helvetica, Arial, Geneva, sans-serif;
@@ -97,7 +99,7 @@ a:hover.no_blue {
 }
 
 #focus>p>a:link, #focus>p>a:visited {
-	color: #c2ffd2;
+	color: #CAD9C9;
 	text-decoration: none;
 	text-transform: uppercase;
 	border-bottom-style: dashed;
@@ -122,8 +124,9 @@ a:hover.no_blue {
 #left_column>p, #right_column>p, #one_column>p {
 	padding: 15px;
 	text-align: justify;
-	background-color: #c2ffd2;
+	background-color: #CAD9C9;
 	border: 2px solid #fff;
+	margin: auto;
 }
 
 #left_column>h1, #right_column>h1, #one_column>h1 {
