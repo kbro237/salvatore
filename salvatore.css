@@ -10,8 +10,16 @@ h1 {
 	font-family: "Trebuchet MS", Helvetica, Arial, Geneva, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: -4px;
-	text-shadow: #6f749b 1px 1px 3px;
+	text-shadow: #749b6f 1px 1px 2px;
 	text-align: center;
+}
+
+h2 {
+	font-family: "Trebuchet MS", Helvetica, Arial, Geneva, sans-serif;
+	letter-spacing: -1px;
+	color: #6f749b;
+	text-align: left;
+	word-spacing: -1px;
 }
 
 .center {
@@ -114,6 +122,7 @@ a:hover.no_blue {
 #left_column>p, #right_column>p, #one_column>p {
 	padding: 10px;
 	text-align: justify;
+	background-color: #c2ffd2;
 }
 
 #left_column>h1, #right_column>h1, #one_column>h1 {
@@ -130,6 +139,7 @@ a:hover.no_blue {
 
 #one_column {
 	width: auto;
+	padding: 25px 100px;
 }
 
 #footer {
@@ -137,6 +147,8 @@ a:hover.no_blue {
 	margin-right: auto;
 	background-color: #;
 	font-family: "Trebuchet MS", Helvetica, Arial, Geneva, sans-serif;
+	clear: both;
+	float: none;
 }
 
 #foot_location {
