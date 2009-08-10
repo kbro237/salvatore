@@ -66,3 +66,14 @@
 	display: none;
 	
 }
+
+#outline {
+	width: 198px;
+	height: 442px;
+	z-index: -1;
+	background-image: url(fill.png);
+	position: absolute;
+	top: 198px;
+	display: none;
+}
+

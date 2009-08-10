@@ -4,6 +4,7 @@
 body {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	margin: auto;
+	background: url(churchtree.png) no-repeat 0 bottom; 
 }
 
 h1 {
@@ -26,7 +27,7 @@ h2 {
 	text-align: center;
 }
 
-#content, #footer, #foot_location {
+#content, #foot_location {
 	width: 750px;
 }
 
@@ -36,7 +37,6 @@ h2 {
 
 #header {
 	margin: auto;
-	background-color: transparent;
 }
 
 a:link.no_blue, a:visited.no_blue {
@@ -50,10 +50,10 @@ a:hover.no_blue {
 
 #title {
 	margin-top: 0px;
-	border-bottom-style: solid;
-	height: 110px;
-	border-bottom-width: 2px;
-	#background-image: url(paisly.png);
+	height: auto;
+	background-color: #fff;
+	border-bottom: 4px solid #a7a7a7;
+	border-bottom-width: 4px;
 }
 
 #head_name {
@@ -64,26 +64,25 @@ a:hover.no_blue {
 	margin-left: auto;
 	margin-right: auto;
 	width: 600px;
+	text-align: center;
 }
 
 #head_location {
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
+	padding: 5px;
 	text-transform: uppercase;
 	letter-spacing: .1em;
 	font: 1em "Trebuchet MS", Helvetica, Arial, Geneva, sans-serif;
 	text-shadow: #a7a7a7 1px 1px 2px;
-	text-align: right;
+	text-align: center;
 }
 
 #focus {
 	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: -28px;
-	width: 750px;
-	background: url(focus.png) no-repeat 50%;
-	height: 54px;
+	margin: auto auto 0;
+	width: auto;
+	background: url(fluffygrad.png) repeat-x center;
+	height: 68px;
 	font: 1.25em "Trebuchet MS", Helvetica, Arial, Geneva, sans-serif;
 	z-index: 1;
 	position: relative;
@@ -91,14 +90,14 @@ a:hover.no_blue {
 
 #focus>p {
 	width: 400px;
-	color: #e2ebe0;
+	color: #fff;
 	margin: auto;
 	height: 54px;
 	padding-top: 3px;
 }
 
 #focus>p>a:link, #focus>p>a:visited {
-	color: #749B6F;
+	color: #c2ffd2;
 	text-decoration: none;
 	text-transform: uppercase;
 	border-bottom-style: dashed;
@@ -107,11 +106,12 @@ a:hover.no_blue {
 
 
 #focus>p>a:hover {
-	color: #956F9B;
+	color: #000;
 	}
 
 #content {
 	margin: auto;
+	float: none;
 }
 
 #left_column, #right_column {
@@ -120,9 +120,10 @@ a:hover.no_blue {
 }
 
 #left_column>p, #right_column>p, #one_column>p {
-	padding: 10px;
+	padding: 15px;
 	text-align: justify;
 	background-color: #c2ffd2;
+	border: 2px solid #fff;
 }
 
 #left_column>h1, #right_column>h1, #one_column>h1 {
@@ -145,10 +146,11 @@ a:hover.no_blue {
 #footer {
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #;
+	padding: 0px;
 	font-family: "Trebuchet MS", Helvetica, Arial, Geneva, sans-serif;
 	clear: both;
 	float: none;
+	background: url(grass.png) repeat-x bottom;
 }
 
 #foot_location {
@@ -156,6 +158,7 @@ a:hover.no_blue {
 	margin-left: auto;
 	margin-right: auto;
 	padding: 8px;
+	padding-bottom: 40px;
 	text-shadow: #749B6F 1px 1px 1px;
 }
 
