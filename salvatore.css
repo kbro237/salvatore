@@ -90,7 +90,7 @@ a:hover.no_blue {
 	position: relative;
 }
 
-#focus>p {
+#focus p {
 	width: 400px;
 	color: #fff;
 	margin: auto;
@@ -98,7 +98,7 @@ a:hover.no_blue {
 	padding-top: 3px;
 }
 
-#focus>p>a:link, #focus>p>a:visited {
+#focus a:link, #focus a:visited {
 	color: #CAD9C9;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -107,7 +107,7 @@ a:hover.no_blue {
 }
 
 
-#focus>p>a:hover {
+#focus a:hover {
 	color: #000;
 	}
 
@@ -121,7 +121,7 @@ a:hover.no_blue {
 	padding: 20px 10px;
 }
 
-#left_column>p, #right_column>p, #one_column>p {
+#left_column p, #right_column p, #one_column p {
 	padding: 15px;
 	text-align: justify;
 	background-color: #CAD9C9;
@@ -129,7 +129,7 @@ a:hover.no_blue {
 	margin: auto;
 }
 
-#left_column>h1, #right_column>h1, #one_column>h1 {
+#left_column h1, #right_column h1, #one_column h1 {
 	text-align: center;
 }
 
