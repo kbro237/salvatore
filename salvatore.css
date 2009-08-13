@@ -112,8 +112,8 @@ a:hover.no_blue {
 	}
 
 #content {
+	width: 750px;
 	margin: auto;
-	float: none;
 }
 
 #left_column, #right_column {
@@ -144,6 +144,7 @@ a:hover.no_blue {
 #one_column {
 	width: auto;
 	padding: 25px 100px;
+	clear: both;
 }
 
 #footer {
